@@ -16,7 +16,7 @@
 
 module "irsa_karpenter" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-assumable-role-with-oidc"
-  version = "4.19.0"
+  version = "4.20.1"
 
   create_role                   = true
   role_name                     = "Karpenter"
