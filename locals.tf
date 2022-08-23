@@ -13,7 +13,7 @@
 # limitations under the License.
 
 locals {
-  service_name = format("%s-karpenter", var.cluster_name)
+  # service_name = format("%s-karpenter", var.cluster_name)
 
   role_name = "karpenter"
 

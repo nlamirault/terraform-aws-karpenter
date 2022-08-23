@@ -19,6 +19,11 @@ variable "cluster_name" {
   description = "Name of the EKS cluster"
 }
 
+variable "cluster_node_group_name" {
+  type        = string
+  description = "Node Group name for Karpenter"
+}
+
 variable "namespace" {
   type        = string
   description = "The Kubernetes namespace"
