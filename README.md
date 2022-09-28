@@ -1,5 +1,7 @@
 # Karpenter
 
+Deprecated. See: https://github.com/terraform-aws-modules/terraform-aws-iam/tree/master/modules/iam-role-for-service-accounts-eks
+
 Terraform module which configure Karpenter resources on Amazon AWS
 
 ## Documentation
